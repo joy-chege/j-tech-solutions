@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>J-Tech Solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">J-Tech Solutions</div>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="hero">
+    <h1>Smart Web & IT Solutions for Growing Businesses</h1>
+    <p>We help businesses, schools, and organizations build secure, modern websites that work smoothly and look professional.</p>
+    <a href="#contact" class="btn">Get Started Today</a>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Business Website Design</h3>
+            <p>We create clean, responsive, and user-friendly websites that help businesses build trust and attract customers online.</p>
+        </div>
+        <div class="card">
+            <h3>Website Maintenance & Updates</h3>
+            <p>We handle updates, fixes, and performance improvements so your website stays reliable and stress-free.</p>
+        </div>
+        <div class="card">
+            <h3>Basic Website Security</h3>
+            <p>We help protect your website from common threats and vulnerabilities using proven security practices.</p>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <h2>Our Work</h2>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <h3>Business Website Demo</h3>
+            <p>A clean, modern business website example.</p>
+            <a href="demo-business-site/index.html" target="_blank">View Demo</a>
+        </div>
+        <div class="portfolio-item">
+            <h3>School / Organization Demo</h3>
+            <p>A professional website for schools and organizations.</p>
+            <a href="demo-school-site/index.html" target="_blank">View Demo</a>
+        </div>
+    </div>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>J-Tech Solutions is a modern IT services business focused on helping organizations grow through reliable web solutions and technology support.</p>
+    <p>We believe technology should be simple, secure, and effective. Our goal is to deliver quality work, clear communication, and solutions that actually help our clients succeed.</p>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="sendMessage(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <p id="status"></p>
+</section>
+
+<footer>
+    <p>© 2026 J-Tech Solutions. All Rights Reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
